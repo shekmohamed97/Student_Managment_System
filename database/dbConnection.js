@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 export const dbConnection=()=>{
-    mongoose.connect(process.env.MONGO_URL,{    dbName:"",
+    mongoose.connect(process.env.MONGODB_URL,{    dbName:"",
         // useNewUrlParser:true,
         // useUnifiedTopology:true,
         // serverSelectionTimeoutMS:10000,
